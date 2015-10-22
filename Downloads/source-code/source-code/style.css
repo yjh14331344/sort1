@@ -14,11 +14,11 @@ div#bottom-positioner {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	/*overflow: hidden;*/
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 }
 
 .but:hover {
@@ -41,11 +41,11 @@ div#bottom-positioner {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	overflow: hidden;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*z-index: 0;*/
 }
 
@@ -74,16 +74,17 @@ div#bottom-positioner {
 
 .but .at .atBox {
 	background: url("assets/images/atplus_white.png") no-repeat;
-	padding-left: 0.25em;
+	background-size: 80% , 80%;
+	padding-left: 0.3em;
 	padding-top: 0.45em;
-	margin-top: 0.3em;
-	margin-left: 0.1em;
+	margin-top: 0.6em;
+	margin-left: 0.3em;
 	/*z-index: 1;*/
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 }
 
 /*.atBox:hover {
@@ -101,21 +102,21 @@ div#bottom-positioner {
 /*}*/
 .but .info-bar {
 	background: #FFFFFF;
-	width: 120px;
-	height: 120px;
-	margin-top: -5em;
-	margin-left: -1.5em;
+	width: 33px;
+	height: 33px;
+	margin-top: -2em;
+	margin-left: 0em;
 	border-radius: 50%;
 	opacity: 0;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	overflow: hidden;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*z-index: 0;*/
 }
 
@@ -228,16 +229,16 @@ div#bottom-positioner {
 }
 
 .mask {
-	margin-left: -2em;
-	margin-top:-5em ;
+	margin-left: -2.5em;
+	margin-top:-3em ;
 	padding-top: ;
 	padding-left: ;
 	opacity: 0;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;	
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;	
 }
 
 .but:hover .mask {
@@ -247,13 +248,13 @@ div#bottom-positioner {
 }
 
 .history {
-	margin-left: -2em;
-	margin-top: -2em;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	margin-left: -2.5em;
+	margin-top: -2.3em;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*padding-top: ;*/
 	opacity: 0;
 	/*padding-left: ;*/
@@ -267,14 +268,14 @@ div#bottom-positioner {
 }
 
 .setting {
-	margin-left: -2em;
-	margin-top: -3em;
+	margin-left: -2.5em;
+	margin-top: -1.5em;
     opacity: 0;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*padding-top: ;*/
 	/*padding-left: ;*/
 }
@@ -286,14 +287,14 @@ div#bottom-positioner {
 }
 
 .sign {
-	margin-left: -3em;
-	margin-top: -3em;
+	margin-left: -2.5em;
+	margin-top: -2em;
     opacity: 0;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*padding-top: ;*/
 	/*padding-left: ;*/
 }
@@ -305,14 +306,14 @@ div#bottom-positioner {
 }
 
 .message {
-	margin-left: -3em;
-	margin-top: -3em;
+	margin-left: -2.5em;
+	margin-top: -2.2em;
 	opacity: 0;
-	-webkit-transition:0.5s all ease;
-	-moz-transition:0.5s all ease;
-	-ms-transition:0.5s all ease;
-	-o-transition:0.5s all ease;
-	transition:0.5s all ease;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
 	/*padding-top: ;*/
 	/*padding-left: ;*/
 }
