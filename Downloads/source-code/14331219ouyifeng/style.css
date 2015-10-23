@@ -1,0 +1,341 @@
+div#bottom-positioner {
+	position: fixed;
+	bottom: 20%;
+	margin-left: 50%
+}
+.but {
+	margin-left: 10em;
+	margin-top: 10em;
+	background: rgba(132 , 121 , 136 , 0.8);
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	/*overflow: hidden;*/
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+}
+
+.but:hover {
+	/*background: rgba(48 , 63 , 159 , 1);*/
+	background: #FFFFFF;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;	
+}
+
+.but .at {
+	background: rgba(150 , 153 , 208 , 1);
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	overflow: hidden;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*z-index: 0;*/
+}
+
+.but:hover .at {
+	background: rgba(48 , 63 , 159 , 1);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	overflow: hidden;
+	/*-webkit-transition: color 0.2s ease-out , -webkit-transform 0.2s ease-out;*/
+/*	z-index: 0;*/
+}
+
+.but:hover .at .atBox {
+	background: url("assets/images/atplus_green.png") no-repeat;
+	background-size: 80% , 80%;
+	margin-left: 0.5em;
+	margin-top: 1.0em;
+	padding-top: 1.0em;
+	padding-left: 0em;
+	/*z-index: 1;*/
+}
+
+.but .at .atBox {
+	background: url("assets/images/atplus_white.png") no-repeat;
+	background-size: 80% , 80%;
+	padding-left: 0.3em;
+	padding-top: 0.45em;
+	margin-top: 0.6em;
+	margin-left: 0.3em;
+	/*z-index: 1;*/
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+}
+
+/*.atBox:hover {
+	background: url("assets/images/atplus_green.png") no-repeat;
+	background-size: 80% , 80%;
+	margin-left: 0.5em;
+	margin-top: 1.0em;
+	padding-top: 1.0em;
+	padding-left: 0em;
+	z-index: 1;
+}*/
+
+/*.ringMenu {*/
+/**/
+/*}*/
+.but .info-bar {
+	background: #FFFFFF;
+	width: 33px;
+	height: 33px;
+	margin-top: -2em;
+	margin-left: 0em;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	overflow: hidden;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*z-index: 0;*/
+}
+
+.but:hover .info-bar {
+	background: rgba(126 , 126 , 126 , 1);
+	width: 120px;
+	height: 120px;
+	margin-top: -11.7em;
+	margin-left: -1.8em;
+	border-radius: 50%;
+	opacity: 1;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	overflow: hidden;
+	/*z-index: 0;*/
+}
+
+.info {
+
+}
+
+.page {
+	color: #ffffff;
+	font-family: Arial;
+}
+
+.user {
+	/*font-size: 10pt;*/
+	margin-left: -0.2em;
+	margin-top: -0.8em;
+	/*padding-left: -1em;*/
+	/*padding-top: -1em;*/
+}
+
+.user span {
+	color: #FFFFFF;
+	font-size: 12pt;
+	padding-left: 0.5em;
+}
+
+.comment {
+	margin-left: -0.6em;
+	margin-top: 0.4em;
+	/*padding-left: ;*/
+	/*padding-top: ;*/
+}
+
+.comment span {
+	color:#FFFFFF;
+	font-size: 22pt;
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+
+.mine {
+	/*float: left;*/
+	color: #079E6E;
+	/*padding-left: -2px;*/
+}
+.posted {
+	margin-left: -1.8em;
+	margin-top: 0.2em;
+	/*padding-left: ;*/
+	/*padding-top: ;*/
+}
+
+.posted span {
+	color: #079E6E;
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bolder;
+	padding-left: 0.3em;
+}
+
+.like {
+	margin-left: 1.15em;
+	margin-top: 0.1em;
+	/*padding-left: ;*/
+	/*padding-top: ;*/
+}
+
+.like span {
+	color: #079E6E;
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+	padding-left: 0.3em;
+}
+
+.button {
+	width: 35px;
+	height: 35px;
+	background: rgba(104 , 104 , 104 , 1);
+	border-radius: 50%;
+}
+
+.unread {
+	float: right;
+	background-color: rgb(255 , 0 , 0);
+	width: 20px;
+	height: 20px;
+	margin-top: -2.5em;
+	margin-left: 2em;
+	border-radius: 50%;
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.mask {
+	margin-left: -2.5em;
+	margin-top:-3em ;
+	padding-top: ;
+	padding-left: ;
+	opacity: 0;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;	
+}
+
+.but:hover .mask {
+	opacity: 1;
+	margin-left: -5.5em;
+	margin-top: -2.3em;
+}
+
+.history {
+	margin-left: -2.5em;
+	margin-top: -2.3em;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*padding-top: ;*/
+	opacity: 0;
+	/*padding-left: ;*/
+}
+
+.but:hover .history {
+	margin-left: -6.5em;
+	margin-top: 0.3em;
+	opacity: 1;
+
+}
+
+.setting {
+	margin-left: -2.5em;
+	margin-top: -1.5em;
+    opacity: 0;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*padding-top: ;*/
+	/*padding-left: ;*/
+}
+
+.but:hover .setting {
+    margin-left:-3.3em;
+    margin-top: -0.5em;
+    opacity: 1;
+}
+
+.sign {
+	margin-left: -2.5em;
+	margin-top: -2em;
+    opacity: 0;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*padding-top: ;*/
+	/*padding-left: ;*/
+}
+
+.but:hover .sign {
+    margin-left: -0.2em;
+    margin-top: -2.2em;
+    opacity: 1;
+}
+
+.message {
+	margin-left: -2.5em;
+	margin-top: -2.2em;
+	opacity: 0;
+	-webkit-transition:0.7s all ease;
+	-moz-transition:0.7s all ease;
+	-ms-transition:0.7s all ease;
+	-o-transition:0.7s all ease;
+	transition:0.7s all ease;
+	/*padding-top: ;*/
+	/*padding-left: ;*/
+}
+
+div#control-ring-container {
+    margin-top: 0.5em;
+    margin-left: 0em;
+}
+
+div#control-ring {
+    margin-left: 0em;
+    margin-top: 0em;
+}
+
+.but:hover .message {
+	margin-left: -5.5em;
+	margin-top: 0.3em;
+	opacity: 1;
+}
+.move {
+	margin-left: 0.4em;
+	/*margin-top: 0.4em;*/
+	padding-top: 0.42em;
+}
+ul li {list-style-type:none;}
